@@ -376,8 +376,8 @@ var section={
                 },
                 {
                     "type":"Whatsapp",
-                    "value":"<a href='https://wa.me/6285640236283'>085640236283</a>",<br>
-                    "value":"<a href='https://wa.me/6285640236283'>085640236283</a>"
+                    "value":"<a href='https://wa.me/6285640236283'>085640236283</a>",
+                    
                     
                     "icon":"ion-social-whatsapp-outline"
                 },
