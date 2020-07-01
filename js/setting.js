@@ -83,8 +83,196 @@ selector.innerHTML=xhtml;
 
 // End Featured-services
 
+// Webinar
+
+c_webinarHeader = document.querySelector(".webinar-section-header");
+
+make_webinar_header(c_webinarHeader);
+
+function make_webinar_header(selector) {
+
+  template = `<h3>` + section.webinar.content.title + `</h3>
+            <p>`+ section.webinar.content.description + `</p>
+    `
+  selector.innerHTML = template;
+}
+
+c_webinarPackage=document.querySelector('.webinar-package');
+
+make_webinar_package(c_webinarPackage);
+
+function make_webinar_package(selector){
+
+  webinar_package = Object.keys(section.webinar.content.package);
+  
+  template_webinar_package="";
+
+  webinar_package.forEach(el=>{
+
+    template_webinar_description="";
+    
+    filter_feature=section.webinar.content.package[el].feature;
+
+    angka=0;
+
+    section.webinar.content.full_feature.forEach(el1=>{
+
+      if(filter_feature.indexOf(angka)>=0){
+
+        template=`<li>`+el1+`</li>`;
+      }else{
+
+        template = `<li class="d-none d-lg-block d-sm-none"><strike>` + el1 +`</strike></li>`;
+      }
+
+      template_webinar_description+=template;
+
+      angka++;
+      
+    })
+
+    template = `        
+    <div class="col-lg-4 col-md-6 box">
+    <div id="data-package">
+    <input type="hidden" value="`+ section.webinar.content.package[el].name + `">
+    <input type="hidden" value="`+ section.webinar.content.package[el].price + `">
+    </div>
+    <div class="icon"><i class="`+ section.webinar.content.package[el].icon + `"></i></div>
+    <h4 class="title"><a href="">`+ section.webinar.content.package[el].name + `</a></h4>
+    <ul class="description">
+    `+ template_webinar_description + `
+    </ul>
+    <div class="footer">
+    <button type="button" onclick="rent(this)" class="price btn btn-primary" data-toggle="modal" data-target="#exampleModal">`+ section.webinar.content.package[el].price + `</button>
+    </div>
+    </div>`;
+
+    template_webinar_package+=template;
+  })
+
+  selector.innerHTML=template_webinar_package;
+
+}
+
+c_webinarSuccess=document.querySelector(".webinar-block");
+
+make_webinar_success(c_webinarSuccess);
+
+function make_webinar_success(selector){
+
+  webinar_success=Object.keys(section.webinar.content.success);
+
+  template_webinar_success="";
+
+  webinar_success.forEach(el=>{
+
+    template=`
+    <div class="webinar-content">
+
+    <img class="img-fluid d-lg-none d-sm-block" src="`+section.webinar.content.success[el].thumbnail+`">
+
+    <div class="media">
+    <img class="align-self-center mr-3 d-none d-lg-block d-sm-none" src="`+ section.webinar.content.success[el].thumbnail +`"
+    alt="Generic placeholder image">
+    <div class="media-body">
+    <h5 class="mt-0">`+ section.webinar.content.success[el].title +`</h5>
+    <p>`+ section.webinar.content.success[el].description +`</p>
+    </div>
+    </div>
+
+    </div>`;
+
+    template_webinar_success+=template;
+
+
+  })
+
+  selector.innerHTML=template_webinar_success;
+
+}
+
+
+function rent(el){
+  
+  document.getElementById("exampleModalLabel").innerHTML="Sewa Webinar";
+
+  webinar_package=el.parentNode.parentNode;
+
+  data_package=webinar_package.children[0];
+
+  title=data_package.children[0].value;
+  price = data_package.children[1].value;
+
+  document.getElementById("paket").value=title;
+  document.getElementById("harga").value = price;
+  
+}
+
+function rent_now(){
+  
+  alert("tes");
+}
+
+document.getElementById('penyewa').addEventListener("keyup",(el)=>{
+
+  rent_now = document.getElementById("rent-now");
+
+  if(el.target.value==""){
+
+    rent_now.setAttribute("disabled","true");
+    document.getElementById('notif').innerHTML="";
+        
+  }else{
+    rent_now.removeAttribute('disabled');
+  }
+})
+
+document.getElementById('rent-now').addEventListener("click",(el)=>{
+
+  match = /[A-Za-z\s]/;
+
+  nama=document.getElementById('penyewa').value;
+  paket = document.getElementById('paket').value;
+  harga = document.getElementById('harga').value;
+
+  if(document.getElementById('penyewa').value==""){
+    document.getElementById('penyewa').focus();
+    el.target.setAttribute("disabled","true");
+  }else{
+
+    name=encodeURI(nama);
+    template = `Sewa%20Webiner%0A%0A` + name + `%0A%0A` + encodeURI(paket) + `%20%7C%20` + encodeURI(harga) +`%0A`;
+    
+    allow=false;
+
+    for(i=0;i<=nama.length-1;i++){
+      
+      if(!nama[i].match(match)){
+
+        allow=false;
+
+        document.getElementById('notif').innerHTML="Nama Tidak valid";
+        document.getElementById('penyewa').focus();
+        
+        break;
+      }else{
+
+        allow=true;
+      }
+      
+    }
+
+   if(allow){
+     window.open("https://wa.me/6289509530027?text="+template,"_blank");
+   }
+    
+  }
+})
+
+// End Webinar
+
 // About
-c_sectionHeader=document.querySelector(".section-header");
+c_sectionHeader=document.querySelector(".about-section-header");
 
 make_section_header(c_sectionHeader);
 
@@ -265,6 +453,7 @@ function make_team_member(selector){
         empty_twitter=el.social.twitter=="" ? "style='display:none'" : el.social.twitter;
         empty_facebook = el.social.facebook == "" ? "style='display:none'" : el.social.facebook;
         empty_instagram = el.social.instagram == "" ? "style='display:none'" : el.social.instagram;
+        empty_github = el.social.github == "" ? "style='display:none'" : el.social.github;
         template =`<div class="col-lg-3 col-md-6">
             <div class="member">
               <img src="`+el.avatar+`" class="img-fluid" alt="">
@@ -276,6 +465,7 @@ function make_team_member(selector){
                     <a href="`+ el.social.twitter + `" ` + empty_twitter+` ><i class="fa fa-twitter"></i></a>
                     <a href="`+ el.social.facebook + `"` + empty_facebook +`><i class="fa fa-facebook"></i></a>
                     <a href="`+ el.social.instagram + `"` + empty_instagram +`><i class="fa fa-instagram"></i></a>
+                    <a href="`+ el.social.github + `"` + empty_github +`><i class="fa fa-github"></i></a>
                   </div>
                 </div>
               </div>

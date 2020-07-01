@@ -43,7 +43,7 @@ var section={
                 },
            
                 "paket": {
-                    "title": "Domain dan hosting",
+                    "title": "Domain and hosting",
                     "target": "https://domainhosting.gudangsoft.net",
                     "icon": "ion-android-checkbox-outline"
                 },
@@ -53,6 +53,61 @@ var section={
                 "icon": "ion-ios-paper-outline"
             }
             
+        }
+    },
+    "webinar":{
+        "href":"#webinar",
+        "text":"Webinar",
+        "content":{
+            "title":"Webinar",
+            "description":"Jangan sampai pandemi covid-19 menghalangimu untuk terus berkarya dan bekerja,dengan teknologi kita bisa saling berkomunikasi sesuai anjuran pemerintah untuk physical distancing.Kami menyediakan Room Meeting ZOOM dengan kapasitas 500 peserta.",
+            "full_feature":[
+                "sewa akun zoom 2,5 jam",
+                "Teknisi/operator zoom",
+                "Terintegrasi dengan google form untuk registrasi",
+                "Google form untk presensi",
+                "Desain e-sertifikat",
+                "Pengiriman e-sertifikat ke peserta",
+                "Desain thumbnail youtube",
+                "Live streaming youtube"
+            ],
+            "package":{
+                "lt":{
+                    "name":"Langsung Tayang",
+                    "icon":"ion-android-bulb",
+                    "price":"100K",
+                    "feature":[0,1]
+                },
+                "gpr":{
+                    "name":"Gak Pake Ribet",
+                    "icon": "ion-android-sunny",
+                    "price": "300K",
+                    "feature": [0,1,2,3,4,5]
+                },
+                "smb":{
+                    "name":"Sultan Mah Bebas",
+                    "icon": "ion-ios-infinite",
+                    "price": "500K",
+                    "feature": [0,1,2,3,4,5,6,7]
+                }
+            },
+            "success":{
+                "webinar1":{
+                    "title":"Peluang Ekonomi Kreatif di Era Pandemi",
+                    "thumbnail":"img/webinar/peluang_ekonomi_kreatif.jpg",
+                    "description":"Berkolaborasi dengan STEKOM dalam webinar kali ini,tim GS sukses menyelenggarakan event dengan moderator dan pemberian e-certificate kepada para peserta dengan lancar.Dengan memberikan pelayanan yang prima dan profesional adalah kunci dari kinerja kami."
+                },
+                "webinar2": {
+                    "title": "Misteri Amalan Malam Lailatul Qodar",
+                    "thumbnail": "img/webinar/amalan_malam_lail.jpg",
+                    "description": "Dengan pelayanan yang terintegrasi dengan platform youtube, peserta umum dapat tetap mengikuti webinar dengan mudah."
+                },
+                "webinar3": {
+                    "title": "Fast & Easy way Create Content Like a Pro",
+                    "thumbnail": "img/webinar/content_creator.jpg",
+                    "description": "Kolaborasi dengan motivator Klara S Widodo dalam pembuatan konten yang berkualitas dengan mudah."
+                }
+            }
         }
     },
     "about": {
@@ -258,7 +313,8 @@ var section={
                     "social":{
                         "twitter":"https://twitter.com/eycoss",
                         "facebook":"https://facebook.com/eycoss",
-                        "instagram":"https://instagram.com/eycoss"
+                        "instagram":"https://instagram.com/eycoss",
+                        "github": ""
                     },
                     "avatar":"img/team/eko_siswanto-ceo.jpg"
                 },
@@ -268,7 +324,8 @@ var section={
                     "social": {
                         "twitter": "",
                         "facebook": "https://www.facebook.com/denmass.bagoes",
-                        "instagram": "https://www.instagram.com/masden_bagoes/?hl=id"
+                        "instagram": "https://www.instagram.com/masden_bagoes/?hl=id",
+                        "github": ""
                     },
                     "avatar": "img/team/bagus_sudirman-visual_and_android_programmer.jpg"
                 },
@@ -278,7 +335,8 @@ var section={
                     "social": {
                         "twitter": "",
                         "facebook": "https://www.facebook.com/emsholy",
-                        "instagram": "https://www.instagram.com/shona_art/?hl=id"
+                        "instagram": "https://www.instagram.com/shona_art/?hl=id",
+                        "github": ""
                     },
                     "avatar": "img/team/muhammad_sholikhan-graphic_design.jpg"
                 },
@@ -288,7 +346,8 @@ var section={
                     "social": {
                         "twitter": "",
                         "facebook": "https://www.facebook.com/zaenal.mustofa.167",
-                        "instagram": "https://www.instagram.com/zm_tofu/?hl=id"
+                        "instagram": "https://www.instagram.com/zm_tofu/?hl=id",
+                        "github": ""
                     },
                     "avatar": "img/team/zaenal_mustofa-design_analyst.jpg"
                 },
@@ -298,7 +357,8 @@ var section={
                     "social": {
                         "twitter": "",
                         "facebook": "https://www.facebook.com/maulidiah.zulfa",
-                        "instagram": "https://www.instagram.com/maulidiah.zulfa/?hl=id"
+                        "instagram": "https://www.instagram.com/maulidiah.zulfa/?hl=id",
+                        "github": ""
                     },
                     "avatar": "img/team/maulidiah_zulfa-customer_support.jpg"
                 },
@@ -308,7 +368,8 @@ var section={
                     "social": {
                         "twitter": "",
                         "facebook": "https://www.facebook.com/harisxid",
-                        "instagram": "https://www.instagram.com/haris_xid/?hl=id"
+                        "instagram": "https://www.instagram.com/haris_xid/?hl=id",
+                        "github": ""
                     },
                     "avatar": "img/team/Haris_ihsanil_huda-web_programmer.jpg"
                 },
@@ -318,7 +379,8 @@ var section={
                     "social": {
                         "twitter": "",
                         "facebook": "https://www.facebook.com/ahmad.ashifuddin",
-                        "instagram": "https://www.instagram.com/asiv_lindafaza/?hl=id"
+                        "instagram": "https://www.instagram.com/asiv_lindafaza/?hl=id",
+                        "github": ""
                     },
                     "avatar": "img/team/Ahmad_ashifuddin-marketing.jpg"
                 },
@@ -328,7 +390,8 @@ var section={
                     "social": {
                         "twitter": "",
                         "facebook": "",
-                        "instagram": ""
+                        "instagram": "",
+                        "github": "#"
                     },
                     "avatar": "img/team/arif_iskandar-contributor.jpg"
                 },
@@ -339,7 +402,8 @@ var section={
                     "social": {
                         "twitter": "",
                         "facebook": "https://www.facebook.com/#",
-                        "instagram": "https://www.instagram.com/#"
+                        "instagram": "https://www.instagram.com/#",
+                        "github": ""
                     },
                     "avatar": "img/team/ibnuok.jpg"
                 },
@@ -350,15 +414,12 @@ var section={
                     "social": {
                         "twitter": "",
                         "facebook": "https://www.facebook.com/abdurrohmanbayu",
-                        "instagram": "https://www.instagram.com/masbay736/?hl=id"
+                        "instagram": "https://www.instagram.com/masbay736/?hl=id",
+                        "github": ""
                     },
                     "avatar": "img/team/bayuok.jpg"
                 },
-                
-              
-                
-        
-                
+                     
             ]
         }
     },
@@ -376,7 +437,7 @@ var section={
                 },
                 {
                     "type":"Whatsapp",
-                    "value":"<a href='https://wa.me/6285640236283'>085640236283</a>",
+                    "value":"<a href='https://wa.me/6285640236283'>085640236283</a><br><a href='https://wa.me/089509530027'>089509530027</a>",
                     
                     
                     "icon":"ion-social-whatsapp-outline"
