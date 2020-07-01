@@ -66,6 +66,8 @@
 
   <main id="main">
 
+    
+
     <!--==========================
           Featured Services Section
         ============================-->
@@ -79,12 +81,40 @@
     </section><!-- #featured-services -->
 
     <!--==========================
+          Webinar Section
+       ============================-->
+    <section id="services">
+      <span id="webinar"></span>
+      <div class="container">
+        
+        <header class="section-header webinar-section-header">
+
+        </header>
+
+        <div class="row webinar-package">
+        </div>
+        
+        <div class="row webinar-success">
+
+          <div class="col success-with-us">
+            
+            <h2 class="title">Sukses bersama kami</h2>
+
+            <div class="webinar-block"></div>
+
+        </div>
+
+    </section><!-- #Webinar -->
+
+    
+
+    <!--==========================
       About Us Section
     ============================-->
     <section id="about">
       <div class="container">
 
-        <header class="section-header">
+        <header class="section-header about-section-header">
         </header>
 
         <div class="row about-cols">
@@ -169,6 +199,42 @@
     </section><!-- #contact -->
 
   </main>
+
+
+    <!--==========================
+          Modal Section
+        ============================-->
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel"></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Penyewa</label>
+              <input type="text" class="form-control" id="penyewa" maxlength="25" placeholder="Nama Lengkap">
+              <small id="notif" class="form-text text-muted"></small>
+              <label for="exampleInputEmail1">Paket</label>
+              <input class="form-control" type="text" id="paket"  placeholder="Langsung Tayang" readonly>
+              <label for="exampleInputEmail1">Harga</label>
+              <input class="form-control" type="text" id="harga"  placeholder="Rp.100.000" readonly>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" id="rent-now" class="btn btn-primary" disabled>Pesan Sekarang</button>
+        </div>
+      </div>
+    </div>
+  </div><!-- #Modal -->
 
   <!--==========================
     Footer

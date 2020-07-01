@@ -814,12 +814,41 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .description {
+  color: #000;
   font-size: 14px;
   margin-left: 60px;
   line-height: 24px;
   margin-bottom: 0;
 }
 
+#services .description li{
+  list-style: circle;
+}
+
+#services .footer {
+  text-align: center;
+  line-height: 24px;
+  margin-top: 20px;
+}
+
+#services .footer .price{
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+}
+
+#services .webinar-content{
+  margin-bottom: 20px;
+}
+
+#services .success-with-us .title{
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+  color: #000;
+  font-size: 2rem;
+}
 
 
 #skills {
