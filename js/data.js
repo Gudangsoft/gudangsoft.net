@@ -393,7 +393,7 @@ var section={
                         "twitter": "",
                         "facebook": "",
                         "instagram": "",
-                        "github": "#"
+                        "github": "https://github.com/aripdevel"
                     },
                     "avatar": "img/team/arif_iskandar-contributor.jpg"
                 },
