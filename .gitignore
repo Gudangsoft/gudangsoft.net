@@ -1,4 +1,5 @@
 .htaccess
+.cpanel.yml
 /temp
 /vendor
 /vscode
