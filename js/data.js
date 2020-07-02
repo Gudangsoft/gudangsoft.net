@@ -69,7 +69,9 @@ var section={
                 "Desain e-sertifikat",
                 "Pengiriman e-sertifikat ke peserta",
                 "Desain thumbnail youtube",
-                "Live streaming youtube"
+                "Live streaming youtube",
+                "Desain Backgroud Zoom",
+                "Desain leaflet webinar"
             ],
             "package":{
                 "lt":{
@@ -88,7 +90,7 @@ var section={
                     "name":"Sultan Mah Bebas",
                     "icon": "ion-ios-infinite",
                     "price": "500K",
-                    "feature": [0,1,2,3,4,5,6,7]
+                    "feature": [0,1,2,3,4,5,6,7,8,9]
                 }
             },
             "success":{
