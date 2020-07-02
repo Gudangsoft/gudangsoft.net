@@ -44,7 +44,7 @@ var section={
            
                 "paket": {
                     "title": "Domain and hosting",
-                    "target": "https://domainhosting.gudangsoft.net",
+                    "target": "https://host.gudangsoft.net",
                     "icon": "ion-android-checkbox-outline"
                 },
             "blog": {
