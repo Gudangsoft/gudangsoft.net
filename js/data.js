@@ -292,9 +292,9 @@ var section={
                     "service": "web"
                 },
                 "robby": {
-                    "name": "RobbiRahim.com/",
+                    "name": "Robbirahim.com",
                     "logo": "",
-                    "image": "img/portfolio/robbirahim.jpg",
+                    "image": "img/portfolio/robbirohim.jpg",
                     "service": "web"
                 },
             }
