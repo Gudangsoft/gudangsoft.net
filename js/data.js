@@ -291,6 +291,12 @@ var section={
                     "image": "img/portfolio/kohd.jpg",
                     "service": "web"
                 },
+                "robby": {
+                    "name": "http://www.robbirahim.com/",
+                    "logo": "",
+                    "image": "img/portfolio/robbirahim.jpg",
+                    "service": "web"
+                },
             }
         }
     },
