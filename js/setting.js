@@ -399,26 +399,18 @@ function make_portfolio_clients(selector){
    client=Object.keys(section.portfolio.content.clients);
 
    xhtml="";
-   test="";
    client.forEach(el=>{
 
      logo=section.portfolio.content.clients[el].logo;
       
      if(!logo==""){
 
-        template =`<img src="`+section.portfolio.content.clients[el].logo+`" alt="">`;
-        test+=logo+"\n";
-        
-     }else{
-       template="";
-     }
-     
-
+       template =`<img src="`+section.portfolio.content.clients[el].logo+`" alt="">`;
+       
        xhtml+=template;
-   })
-
-   console.log(test);
-   
+    }
+  
+   })   
 
    selector.innerHTML=xhtml;
    
