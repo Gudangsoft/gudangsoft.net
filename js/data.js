@@ -202,7 +202,7 @@ var section={
              
                 "sangkar": {
                     "name": "sangkarjaya",
-                    "logo":"img/clients/bengkahlogo.jpg",
+                    "logo":"",
                     "image": "img/portfolio/sangkarjaya_gudangsoftnet_eycoss_demak.jpg",
                     "service": "web"
                 },
@@ -215,13 +215,13 @@ var section={
                 },
                 "uniska": {
                     "name": "Aplikasi Keuangan UNISKA",
-                    "logo":"img/clients/bengkahlogo.jpg",
+                    "logo":"",
                     "image": "img/portfolio/uniska.jpg",
                     "service": "desktop"
                 },
                   "kasirone": {
                     "name": "Kasir One",
-                    "logo":"img/clients/gudangsoft-eycoss2.png",
+                    "logo":"",
                     "image": "img/portfolio/kasir-one-gudangsoft.jpg",
                     "service": "desktop"
                 },
@@ -233,61 +233,61 @@ var section={
                 },
                 "sukadi": {
                     "name": "sukad1.id",
-                    "logo": "img/clients/gudangsoft-eycoss2.png",
+                    "logo": "",
                     "image": "img/portfolio/sukadi.jpg",
                     "service": "web"
                 },
                 "ppbd": {
                     "name": "Aplikasi PSB Online",
-                    "logo": "img/clients/logoboma.jpg",
+                    "logo": "",
                     "image": "img/portfolio/sekolahonline.jpg",
                     "service": "web"
                 },
                 "sman1salem": {
                     "name": "SMAN1 Salem",
-                    "logo": "img/clients/gudangsoft-eycoss2.png",
+                    "logo": "",
                     "image": "img/portfolio/sma1salem-gudangsoft.jpg",
                     "service": "web"
                 },
                 "wesata": {
                     "name": "weesata",
-                    "logo": "img/clients/gudangsoft-eycoss2.png",
+                    "logo": "",
                     "image": "img/wp/weesata.jpg",
                     "service": "wpthema"
                 },
                 "medika": {
                     "name": "Medika",
-                    "logo": "img/clients/gudangsoft-eycoss2.png",
+                    "logo": "",
                     "image": "img/wp/medika.jpg",
                     "service": "wpthema"
                 },
                 "showroom": {
                     "name": "showroom",
-                    "logo": "img/clients/gudangsoft-eycoss2.png",
+                    "logo": "",
                     "image": "img/wp/showroom.jpg",
                     "service": "wpthema"
                 },
                 "dealer": {
                     "name": "Dealer",
-                    "logo": "img/clients/gudangsoft-eycoss2.png",
+                    "logo": "",
                     "image": "img/wp/dealer.jpg",
                     "service": "wpthema"
                 },
                 "toko": {
                     "name": "Toko Online",
-                    "logo": "img/clients/gudangsoft-eycoss2.png",
+                    "logo": "",
                     "image": "img/wp/toko.jpg",
                     "service": "wpthema"
                 },
                  "amh": {
                     "name": "AMHLawOffice",
-                    "logo": "img/clients/logoboma.jpg",
+                    "logo": "",
                     "image": "img/portfolio/amh.jpg",
                     "service": "web"
                 },
                 "kohd": {
                     "name": "KOHD Demak",
-                    "logo": "img/clients/logoboma.jpg",
+                    "logo": "",
                     "image": "img/portfolio/kohd.jpg",
                     "service": "web"
                 },

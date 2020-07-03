@@ -399,11 +399,26 @@ function make_portfolio_clients(selector){
    client=Object.keys(section.portfolio.content.clients);
 
    xhtml="";
+   test="";
    client.forEach(el=>{
 
-       template =`<img src="`+section.portfolio.content.clients[el].logo+`" alt="">`
+     logo=section.portfolio.content.clients[el].logo;
+      
+     if(!logo==""){
+
+        template =`<img src="`+section.portfolio.content.clients[el].logo+`" alt="">`;
+        test+=logo+"\n";
+        
+     }else{
+       template="";
+     }
+     
+
        xhtml+=template;
    })
+
+   console.log(test);
+   
 
    selector.innerHTML=xhtml;
    
