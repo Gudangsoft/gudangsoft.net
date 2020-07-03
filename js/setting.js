@@ -401,9 +401,16 @@ function make_portfolio_clients(selector){
    xhtml="";
    client.forEach(el=>{
 
-       template =`<img src="`+section.portfolio.content.clients[el].logo+`" alt="">`
+     logo=section.portfolio.content.clients[el].logo;
+      
+     if(!logo==""){
+
+       template =`<img src="`+section.portfolio.content.clients[el].logo+`" alt="">`;
+       
        xhtml+=template;
-   })
+    }
+  
+   })   
 
    selector.innerHTML=xhtml;
    
