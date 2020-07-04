@@ -69,7 +69,7 @@ var section={
                 "Desain e-sertifikat",
                 "Pengiriman e-sertifikat ke peserta",
                 "Desain thumbnail youtube",
-                "Live streaming youtube",
+                "Live streaming youtube atau facebook",
                 "Desain Backgroud Zoom",
                 "Desain leaflet webinar"
             ],

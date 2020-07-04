@@ -132,7 +132,7 @@ function make_webinar_package(selector){
     })
 
     template = `        
-    <div class="col-lg-4 col-md-6 box">
+    <div class="col-lg-3 col-md-6 box">
     <div id="data-package">
     <input type="hidden" value="`+ section.webinar.content.package[el].name + `">
     <input type="hidden" value="`+ section.webinar.content.package[el].price + `">
