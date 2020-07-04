@@ -62,7 +62,7 @@ var section={
             "title":"Webinar",
             "description":"Jangan sampai pandemi covid-19 menghalangimu untuk terus berkarya dan bekerja,dengan teknologi kita bisa saling berkomunikasi sesuai anjuran pemerintah untuk physical distancing.Kami menyediakan Room Meeting ZOOM dengan kapasitas 500 peserta.",
             "full_feature":[
-                "sewa akun zoom 2,5 jam",
+                "sewa akun zoom 2 sampai 3 jam",
                 "Teknisi/operator zoom",
                 "Terintegrasi dengan google form untuk registrasi",
                 "Google form untk presensi",
@@ -77,7 +77,7 @@ var section={
                 "lt":{
                     "name":"Langsung Tayang",
                     "icon":"ion-android-bulb",
-                    "price":"100K",
+                    "price":"75K",
                     "feature":[0]
                 },
                 "ps":{
