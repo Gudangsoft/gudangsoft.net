@@ -293,7 +293,7 @@ var section={
                 },
                 "robby": {
                     "name": "Robbirahim.com",
-                    "logo": "",
+                    "logo": "img/clients/logok.png",
                     "image": "img/portfolio/robbirohim.jpg",
                     "service": "web"
                 },
