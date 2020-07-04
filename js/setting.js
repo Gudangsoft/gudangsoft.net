@@ -70,7 +70,7 @@ Object.keys(section.spesial.content).forEach(el=>{
 
   template =`<div class="col-sm-4 box">
             <i class="`+section.spesial.content[el].icon+`"></i>
-            <h4 class="title"><a href="`+ section.spesial.content[el].target + `">` + section.spesial.content[el].title +`</a></h4>
+            <h4 class="title"><a href="`+ section.spesial.content[el].target + `" target="_blank">` + section.spesial.content[el].title +`</a></h4>
           </div>`;
 
   xhtml+=template;
