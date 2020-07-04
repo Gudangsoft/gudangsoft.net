@@ -172,8 +172,10 @@ function make_webinar_success(selector){
     <img class="img-fluid d-lg-none d-sm-block" src="`+section.webinar.content.success[el].thumbnail+`">
 
     <div class="media">
+    <a href="`+ section.webinar.content.success[el].link +`" target="_blank">
     <img class="align-self-center mr-3 d-none d-lg-block d-sm-none" src="`+ section.webinar.content.success[el].thumbnail +`"
     alt="Generic placeholder image">
+    </a>
     <div class="media-body">
     <h5 class="mt-0">`+ section.webinar.content.success[el].title +`</h5>
     <p>`+ section.webinar.content.success[el].description +`</p>

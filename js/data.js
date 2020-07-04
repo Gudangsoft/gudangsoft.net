@@ -78,13 +78,19 @@ var section={
                     "name":"Langsung Tayang",
                     "icon":"ion-android-bulb",
                     "price":"100K",
-                    "feature":[0,1]
+                    "feature":[0]
                 },
-                "gpr":{
-                    "name":"Gak Pake Ribet",
+                "ps":{
+                    "name":"Paket Santuy",
+                    "icon": "ion-android-contacts",
+                    "price": "150K",
+                    "feature": [0,1]
+                },
+                "gpl": {
+                    "name": "Gak Pake Ribet",
                     "icon": "ion-android-sunny",
                     "price": "300K",
-                    "feature": [0,1,2,3,4,5]
+                    "feature": [0, 1, 2, 3, 4, 5]
                 },
                 "smb":{
                     "name":"Sultan Mah Bebas",
@@ -95,16 +101,19 @@ var section={
             },
             "success":{
                 "webinar1":{
+                    "link":"https://www.youtube.com/watch?v=pE0uupql1_A",
                     "title":"Peluang Ekonomi Kreatif di Era Pandemi",
                     "thumbnail":"img/webinar/peluang_ekonomi_kreatif.jpg",
                     "description":"Berkolaborasi dengan STEKOM dalam webinar kali ini,tim GS sukses menyelenggarakan event dengan moderator dan pemberian e-certificate kepada para peserta dengan lancar.Dengan memberikan pelayanan yang prima dan profesional adalah kunci dari kinerja kami."
                 },
                 "webinar2": {
+                    "link": "https://www.youtube.com/watch?v=22iVJHIRS3M&t=1065s",
                     "title": "Misteri Amalan Malam Lailatul Qodar",
                     "thumbnail": "img/webinar/amalan_malam_lail.jpg",
                     "description": "Dengan pelayanan yang terintegrasi dengan platform youtube, peserta umum dapat tetap mengikuti webinar dengan mudah."
                 },
                 "webinar3": {
+                    "link": "https://www.youtube.com/watch?feature=youtu.be&v=Y4DGLc11gsc",
                     "title": "Fast & Easy way Create Content Like a Pro",
                     "thumbnail": "img/webinar/content_creator.jpg",
                     "description": "Kolaborasi dengan motivator Klara S Widodo dalam pembuatan konten yang berkualitas dengan mudah."
