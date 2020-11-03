@@ -184,7 +184,7 @@ var section={
                     "image":"img/portfolio/suarakeadilan.jpg",
                     "service":"web"
                 },
-                "kabarkadinkendal": {
+                "kabarkadinkendal123": {
                     "name": "kabarkadinkendal.com",
                     "logo": "img/clients/kabarkadinkendal.com.jpg",
                     "image": "img/portfolio/kabarkadinkendal.jpg",
