@@ -70,7 +70,7 @@ Object.keys(section.spesial.content).forEach(el=>{
 
   template =`<div class="col-sm-4 box">
             <i class="`+section.spesial.content[el].icon+`"></i>
-            <h4 class="title"><a href="`+ section.spesial.content[el].target + `">` + section.spesial.content[el].title +`</a></h4>
+            <h4 class="title"><a href="`+ section.spesial.content[el].target + `" target="_blank">` + section.spesial.content[el].title +`</a></h4>
           </div>`;
 
   xhtml+=template;
@@ -132,7 +132,7 @@ function make_webinar_package(selector){
     })
 
     template = `        
-    <div class="col-lg-4 col-md-6 box">
+    <div class="col-lg-3 col-md-6 box">
     <div id="data-package">
     <input type="hidden" value="`+ section.webinar.content.package[el].name + `">
     <input type="hidden" value="`+ section.webinar.content.package[el].price + `">
@@ -172,8 +172,10 @@ function make_webinar_success(selector){
     <img class="img-fluid d-lg-none d-sm-block" src="`+section.webinar.content.success[el].thumbnail+`">
 
     <div class="media">
+    <a href="`+ section.webinar.content.success[el].link +`" target="_blank">
     <img class="align-self-center mr-3 d-none d-lg-block d-sm-none" src="`+ section.webinar.content.success[el].thumbnail +`"
     alt="Generic placeholder image">
+    </a>
     <div class="media-body">
     <h5 class="mt-0">`+ section.webinar.content.success[el].title +`</h5>
     <p>`+ section.webinar.content.success[el].description +`</p>

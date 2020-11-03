@@ -62,14 +62,14 @@ var section={
             "title":"Webinar",
             "description":"Jangan sampai pandemi covid-19 menghalangimu untuk terus berkarya dan bekerja,dengan teknologi kita bisa saling berkomunikasi sesuai anjuran pemerintah untuk physical distancing.Kami menyediakan Room Meeting ZOOM dengan kapasitas 500 peserta.",
             "full_feature":[
-                "sewa akun zoom 2,5 jam",
+                "sewa akun zoom 2 sampai 3 jam",
                 "Teknisi/operator zoom",
                 "Terintegrasi dengan google form untuk registrasi",
                 "Google form untk presensi",
                 "Desain e-sertifikat",
                 "Pengiriman e-sertifikat ke peserta",
                 "Desain thumbnail youtube",
-                "Live streaming youtube",
+                "Live streaming youtube atau facebook",
                 "Desain Backgroud Zoom",
                 "Desain leaflet webinar"
             ],
@@ -77,14 +77,20 @@ var section={
                 "lt":{
                     "name":"Langsung Tayang",
                     "icon":"ion-android-bulb",
-                    "price":"100K",
-                    "feature":[0,1]
+                    "price":"75K",
+                    "feature":[0]
                 },
-                "gpr":{
-                    "name":"Gak Pake Ribet",
+                "ps":{
+                    "name":"Paket Santuy",
+                    "icon": "ion-android-contacts",
+                    "price": "150K",
+                    "feature": [0,1]
+                },
+                "gpl": {
+                    "name": "Gak Pake Ribet",
                     "icon": "ion-android-sunny",
                     "price": "300K",
-                    "feature": [0,1,2,3,4,5]
+                    "feature": [0, 1, 2, 3, 4, 5]
                 },
                 "smb":{
                     "name":"Sultan Mah Bebas",
@@ -95,16 +101,19 @@ var section={
             },
             "success":{
                 "webinar1":{
+                    "link":"https://www.youtube.com/watch?v=pE0uupql1_A",
                     "title":"Peluang Ekonomi Kreatif di Era Pandemi",
                     "thumbnail":"img/webinar/peluang_ekonomi_kreatif.jpg",
                     "description":"Berkolaborasi dengan STEKOM dalam webinar kali ini,tim GS sukses menyelenggarakan event dengan moderator dan pemberian e-certificate kepada para peserta dengan lancar.Dengan memberikan pelayanan yang prima dan profesional adalah kunci dari kinerja kami."
                 },
                 "webinar2": {
+                    "link": "https://www.youtube.com/watch?v=22iVJHIRS3M&t=1065s",
                     "title": "Misteri Amalan Malam Lailatul Qodar",
                     "thumbnail": "img/webinar/amalan_malam_lail.jpg",
                     "description": "Dengan pelayanan yang terintegrasi dengan platform youtube, peserta umum dapat tetap mengikuti webinar dengan mudah."
                 },
                 "webinar3": {
+                    "link": "https://www.youtube.com/watch?feature=youtu.be&v=Y4DGLc11gsc",
                     "title": "Fast & Easy way Create Content Like a Pro",
                     "thumbnail": "img/webinar/content_creator.jpg",
                     "description": "Kolaborasi dengan motivator Klara S Widodo dalam pembuatan konten yang berkualitas dengan mudah."
@@ -186,6 +195,12 @@ var section={
                     "logo": "img/clients/kabarkadinkendal.com.jpg",
                     "image": "img/portfolio/kabarkadinkendal.jpg",
                     "service": "web"
+                },
+                "investigasinews":{
+                    "name":"investigasinews.net/",
+                    "logo":"img/clients/logo-investigasi.png",
+                    "image":"img/portfolio/investigasi.jpg",
+                    "service":"web"
                 },
                 "auliyakendal": {
                     "name": "sekolahalamauliya.sch.id",
@@ -295,6 +310,12 @@ var section={
                     "name": "KOHD Demak",
                     "logo": "",
                     "image": "img/portfolio/kohd.jpg",
+                    "service": "web"
+                },
+                "robby": {
+                    "name": "Robbirahim.com",
+                    "logo": "img/clients/logok.png",
+                    "image": "img/portfolio/robbirohim.jpg",
                     "service": "web"
                 },
             }
