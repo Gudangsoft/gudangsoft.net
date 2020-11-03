@@ -184,11 +184,17 @@ var section={
                     "image":"img/portfolio/suarakeadilan.jpg",
                     "service":"web"
                 },
-                "kabarkadinkendal123": {
+                "kabarkadinkendal": {
                     "name": "kabarkadinkendal.com",
                     "logo": "img/clients/kabarkadinkendal.com.jpg",
                     "image": "img/portfolio/kabarkadinkendal.jpg",
                     "service": "web"
+                },
+                "investigasinews":{
+                    "name":"investigasinews.net/",
+                    "logo":"img/clients/logo-investigasi.png",
+                    "image":"img/portfolio/investigasi.jpg",
+                    "service":"web"
                 },
                 "auliyakendal": {
                     "name": "sekolahalamauliya.sch.id",
