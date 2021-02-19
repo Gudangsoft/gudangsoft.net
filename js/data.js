@@ -38,7 +38,7 @@ var section={
         "content":{
                 "mentor":{
                     "title":"Mentoring",
-                    "target":"https://learning.gudangsoft.net",
+                    "target":"https://g-academy.net/",
                     "icon":"ion-social-youtube-outline"
                 },
            
