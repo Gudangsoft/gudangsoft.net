@@ -297,6 +297,12 @@ var section={
                     "image": "img/portfolio/kohd.jpg",
                     "service": "web"
                 },
+                 "smpsumowono": {
+                    "name": "smpn2-sumowono.sch.id",
+                    "logo": "",
+                    "image": "img/portfolio/sumowono.jpg",
+                    "service": "web"
+                },
             }
         }
     },
