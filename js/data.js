@@ -298,7 +298,7 @@ var section={
                     "service": "web"
                 },
                  "smpsumowono": {
-                    "name": "smpn2-sumowono.sch.id",
+                    "name": "SMPN2 Sumowono",
                     "logo": "",
                     "image": "img/portfolio/sumowono.jpg",
                     "service": "web"
