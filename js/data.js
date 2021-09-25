@@ -177,7 +177,7 @@ var section={
                 },
                 "karirdosen":{
                     "name":"karir-dosen.com",
-                    "logo":"img/clients/karirdsn.png",
+                    "logo":"img/clients/lpkdlogo.png",
                     "image":"img/portfolio/karirdsn.png",
                     "service":"web"
                 },
