@@ -411,7 +411,7 @@ var section={
                         "twitter": "",
                         "facebook": "",
                         "instagram": "",
-                        "github": "https://github.com/aripdevel"
+                        "github": "https://github.com/aripdev"
                     },
                     "avatar": "img/team/arif_iskandar-contributor.jpg"
                 },
