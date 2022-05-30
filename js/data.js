@@ -174,12 +174,7 @@ var section={
                     "logo":"img/clients/suarakeadilan.net.jpg",
                     "image":"img/portfolio/suarakeadilan.jpg",
                     "service":"web"
-                },
-                "karirdosen":{
-                    "name":"karir-dosen.com",
-                    "logo":"img/clients/lpkdlogo.png",
-                    "image":"img/portfolio/karirdsn.png",
-                    "service":"web"
+              
                 },
                 "investigasinews":{
                     "name":"investigasinews.net/",
