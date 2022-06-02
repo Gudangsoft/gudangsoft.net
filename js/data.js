@@ -174,6 +174,12 @@ var section={
                     "logo":"img/clients/suarakeadilan.net.jpg",
                     "image":"img/portfolio/suarakeadilan.jpg",
                     "service":"web"
+                    },
+                "indospice international":{
+                    "name":"https://www.indospiceinternational.com/",
+                    "logo":"img/clients/Logo-indospiceinternational-website.png",
+                    "image":"img/portfolio/https:/ndospiceinternational.png",
+                    "service":"web"
               
                 },
                 "investigasinews":{
