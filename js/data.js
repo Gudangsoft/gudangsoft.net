@@ -178,7 +178,7 @@ var section={
                 "indospice international":{
                     "name":"https://www.indospiceinternational.com/",
                     "logo":"img/clients/Logo-indospiceinternational-website.png",
-                    "image":"img/portfolio/https:/ndospiceinternational.png",
+                    "image":"img/portfolio/ndospiceinternational.png",
                     "service":"web"
               
                 },
