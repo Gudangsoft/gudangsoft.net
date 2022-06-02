@@ -175,8 +175,8 @@ var section={
                     "image":"img/portfolio/suarakeadilan.jpg",
                     "service":"web"
                     },
-                "indospice international":{
-                    "name":"https://www.indospiceinternational.com/",
+                "indospiceinternational":{
+                    "name":"indospice",
                     "logo":"img/clients/Logo-indospiceinternational-website.png",
                     "image":"img/portfolio/ndospiceinternational.png",
                     "service":"web"
