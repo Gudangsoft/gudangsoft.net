@@ -323,9 +323,7 @@ var section={
                     "image": "img/portfolio/sumowono.jpg",
                     "service": "web"
            
-            
-            }
-        }
+      
     },
     "clients": {
         "href": "#clients",
