@@ -310,6 +310,18 @@ var section={
                     "image": "img/portfolio/sumowono.jpg",
                     "service": "web"
                 },
+                 "APJI": {
+                    "name": "APJI",
+                    "logo": "img/clients/APJI.png",,
+                    "image": "img/portfolio/apjiweb.jpg",
+                    "service": "web"
+                },
+                 "ADMI": {
+                    "name": "ADMI",
+                    "logo": "img/clients/admiweb.jpg",,
+                    "image": "img/portfolio/admi.png",
+                    "service": "web"
+                },
             }
         }
     },
