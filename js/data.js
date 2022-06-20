@@ -184,13 +184,13 @@ var section={
                      },
                  "APJI": {
                     "name": "apji.org",
-                    "logo": "img/clients/APJI.png",,
+                    "logo": "img/clients/APJI.png",
                     "image": "img/portfolio/apjiweb.jpg",
                     "service": "web"
                 },
                  "ADMI": {
                     "name": "admin.or.id",
-                    "logo": "img/clients/admiweb.jpg",,
+                    "logo": "img/clients/admiweb.jpg",
                     "image": "img/portfolio/admi.png",
                     "service": "web"
               
