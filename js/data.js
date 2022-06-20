@@ -185,12 +185,12 @@ var section={
                  "APJI": {
                     "name": "apji.org",
                     "logo": "img/clients/APJI.png",
-                    "image": "img/portfolio/apjiweb.jpg",
+                    "image": "img/portfolio/apjiweb.png",
                     "service": "web"
                 },
                  "ADMI": {
                     "name": "admin.or.id",
-                    "logo": "img/clients/admiweb.jpg",
+                    "logo": "img/clients/admiweb.png",
                     "image": "img/portfolio/admi.png",
                     "service": "web"
               
