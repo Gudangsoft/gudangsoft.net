@@ -322,7 +322,10 @@ var section={
                     "logo": "",
                     "image": "img/portfolio/sumowono.jpg",
                     "service": "web"
-           
+               
+            }
+        }
+    },
       
     },
     "clients": {
