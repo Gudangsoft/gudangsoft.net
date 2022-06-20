@@ -180,6 +180,19 @@ var section={
                     "logo":"img/clients/Logo-indospiceinternational-website.png",
                     "image":"img/portfolio/ndospiceinternational.png",
                     "service":"web"
+                    
+                     },
+                 "APJI": {
+                    "name": "APJI",
+                    "logo": "img/clients/APJI.png",,
+                    "image": "img/portfolio/apjiweb.jpg",
+                    "service": "web"
+                },
+                 "ADMI": {
+                    "name": "ADMI",
+                    "logo": "img/clients/admiweb.jpg",,
+                    "image": "img/portfolio/admi.png",
+                    "service": "web"
               
                 },
                 "investigasinews":{
@@ -309,19 +322,7 @@ var section={
                     "logo": "",
                     "image": "img/portfolio/sumowono.jpg",
                     "service": "web"
-                },
-                 "APJI": {
-                    "name": "APJI",
-                    "logo": "img/clients/APJI.png",,
-                    "image": "img/portfolio/apjiweb.jpg",
-                    "service": "web"
-                },
-                 "ADMI": {
-                    "name": "ADMI",
-                    "logo": "img/clients/admiweb.jpg",,
-                    "image": "img/portfolio/admi.png",
-                    "service": "web"
-                },
+               
             }
         }
     },
