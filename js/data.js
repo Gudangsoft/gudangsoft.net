@@ -189,7 +189,7 @@ var section={
                     "service": "web"
                 },
                  "ADMI": {
-                    "name": "admin.or.id",
+                    "name": "admi.or.id",
                     "logo": "img/clients/admiweb.png",
                     "image": "img/portfolio/admi.png",
                     "service": "web"
