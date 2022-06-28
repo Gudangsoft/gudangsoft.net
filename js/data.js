@@ -181,7 +181,7 @@ var section={
                     "image":"img/portfolio/ndospiceinternational.png",
                     "service":"web"
 
-                "jurnal merah putih":{
+                "jurnalmerahputih":{
                         "name":"merahputih",
                         "logo":"img/clients/untag.png",
                         "image":"img/portfolio/merahputih.png",
