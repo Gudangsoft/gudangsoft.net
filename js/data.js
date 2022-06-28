@@ -180,14 +180,12 @@ var section={
                     "logo":"img/clients/Logo-indospiceinternational-website.png",
                     "image":"img/portfolio/ndospiceinternational.png",
                     "service":"web"
-
+                     },
                 "jurnalmerahputih":{
                         "name":"merahputih",
                         "logo":"img/clients/untag.png",
                         "image":"img/portfolio/merahputih.png",
                         "service":"web"
-                        
-                         },
                      },
                  "APJI": {
                     "name": "apji.org",
