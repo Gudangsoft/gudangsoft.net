@@ -184,7 +184,7 @@ var section={
                 "jurnalmerahputih":{
                         "name":"merahputih",
                         "logo":"img/clients/untag.png",
-                        "image":"img/portfolio/merahputih.png",
+                        "image":"img/portfolio/meraputih.png",
                         "service":"web"
                      },
                  "APJI": {
