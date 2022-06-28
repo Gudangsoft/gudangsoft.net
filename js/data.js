@@ -183,7 +183,7 @@ var section={
                      },
                 "jurnalmerahputih":{
                         "name":"merahputih",
-                        "logo":"img/clients/untag.png",
+                        "logo":"",
                         "image":"img/portfolio/meraputih.png",
                         "service":"web"
                      },
