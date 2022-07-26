@@ -169,6 +169,12 @@ var section={
                     "image":"img/portfolio/bengkah.jpg",
                     "service":"web"
                 },
+                "okaijepara":{
+                        "name":"okaijepara.com",
+                        "logo":"img/clients/okaijepara.jpg",
+                        "image":"img/portfolio/okay2.png",
+                        "service":"web"
+                },
                 "suarakeadilan":{
                     "name":"suarakeadilan.net",
                     "logo":"img/clients/suarakeadilan.net.jpg",
@@ -199,12 +205,7 @@ var section={
                     "image": "img/portfolio/admiweb.png",
                     "service": "web"
                  },
-               "okaijepara":{
-                        "name":"okaijepara.com",
-                        "logo":"img/clients/okaijepara.jpg",
-                        "image":"img/portfolio/okay2.png",
-                        "service":"web"
-                },
+               
                 "investigasinews":{
                     "name":"investigasinews.net/",
                     "logo":"img/clients/logo-investigasi.png",
