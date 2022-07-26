@@ -198,12 +198,13 @@ var section={
                     "logo": "img/clients/admi.png",
                     "image": "img/portfolio/admiweb.png",
                     "service": "web"
+                       },
                "okaijepara":{
                         "name":"okaijepara",
                         "logo":"img/clients/okaijepara.jpg",
                         "image":"img/portfolio/okay.png",
                         "service":"web"
-                     },
+                    
                 },
                 "investigasinews":{
                     "name":"investigasinews.net/",
