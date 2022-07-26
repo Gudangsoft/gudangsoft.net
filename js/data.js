@@ -202,7 +202,7 @@ var section={
                "okaijepara":{
                         "name":"okaijepara.com",
                         "logo":"img/clients/okaijepara.jpg",
-                        "image":"img/portfolio/okay.png",
+                        "image":"img/portfolio/okay2.png",
                         "service":"web"
                 },
                 "investigasinews":{
