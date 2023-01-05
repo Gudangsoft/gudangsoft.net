@@ -433,7 +433,7 @@ var section={
                 },
                 {
                     "name": "Arif Iskandar",
-                    "position": "Contributor",
+                    "position": "Contributor & Web Programmer",
                     "social": {
                         "twitter": "",
                         "facebook": "",
