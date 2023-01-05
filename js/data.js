@@ -355,15 +355,15 @@ var section={
             "description":"Tim terbaik kami bersama anda.",
             "member":[
                 {
-                    "name":"Arid",
+                    "name":"Eko Siswanto",
                     "position":"Chief Executive Officer",
                     "social":{
-                        "twitter":"https://twitter.com/#",
-                        "facebook":"https://facebook.com/#",
+                        "twitter":"https://twitter.com/eycoss",
+                        "facebook":"https://facebook.com/eycoss",
                         "instagram":"https://instagram.com/eycoss",
                         "github": ""
                     },
-                    "avatar":"img/team/#"
+                    "avatar":"img/team/eko_siswanto-ceo.jpg"
                 },
                 {
                     "name": "Bagus Sudirman",
