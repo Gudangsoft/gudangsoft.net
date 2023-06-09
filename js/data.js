@@ -106,6 +106,24 @@ var section = {
             "description": "Ini gengs beberapa hasil dari tantangan yang sudah kami selesaikan.",
             "services": ['desktop', 'mobile', 'web', 'wpthema'],
             "clients": {
+                "gemabinanusantara": {
+                    "name": "yayasangemabinanusantara.org",
+                    "logo": "img/clients/logo-bina-nusa.png",
+                    "image": "img/portfolio/yayasan_gema_bina_nusantara.png",
+                    "service": "web"
+                },
+                "Arsilmedia": {
+                    "name": "arsilmedia.com",
+                    "logo": "img/clients/logo_arsi.png",
+                    "image": "img/portfolio/arsilmedia.png",
+                    "service": "web"
+                },
+                "Drestanta": {
+                    "name": "yayasandpi.or.id",
+                    "logo": "img/clients/logo_ydpi.png",
+                    "image": "img/portfolio/yayasan_dpi.png",
+                    "service": "web"
+                },
                 "Aptii": {
                     "name": "siptenan.apji.org",
                     "logo": "",
